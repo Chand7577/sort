@@ -25,10 +25,12 @@ function Sidebar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link d-flex align-items-center gap-2" to="#">
-              <i className="bi bi-app-indicator"></i>
-              Notifications
-            </Link>
+           <li className="nav-item">
+                        <Link className="nav-link d-flex align-items-center gap-2" to="/notifications">
+                          <i className="bi bi-app-indicator"></i>
+                          Notifications
+                        </Link>
+                    </li>
           </li>
           <li className="nav-item">
             <Link className="nav-link d-flex align-items-center gap-2" to="#">

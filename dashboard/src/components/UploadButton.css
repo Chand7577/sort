@@ -1,0 +1,37 @@
+/* Upload Button Container */
+.upload-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust spacing */
+  }
+  
+  /* Upload Button Styling */
+  .upload-button {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between icon and text */
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #444; /* Dark gray instead of white */
+    background: #e0e0e0; /* Light gray */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .upload-button:hover {
+    background: #d6d6d6; /* Slightly darker gray */
+    transform: scale(1.05);
+  }
+  
+  /* Upload Icon Styling */
+  .upload-button i {
+    color: #444; /* Gray icon */
+    font-size: 20px;
+  }
+  

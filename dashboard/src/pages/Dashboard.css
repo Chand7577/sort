@@ -1,0 +1,32 @@
+/* Full screen layout */
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+  /* Sidebar and content wrapper */
+.dashboard-content {
+    display: flex;
+    flex: 1;
+}
+  /* Sidebar styling */
+.sidebar {
+    width: 20%;
+    min-width: 250px;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+  /* Main content styling */
+.main-content {
+    flex: 3;
+    padding: 20px;
+    background-color: #fff;
+   }
+  /* Title styling */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+   
+}

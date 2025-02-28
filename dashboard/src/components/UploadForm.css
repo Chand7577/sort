@@ -1,0 +1,74 @@
+/* UploadForm.css */
+
+/* Center the upload form */
+.upload-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+  }
+  
+  /* Upload form box */
+  .upload-form {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Title */
+  .upload-form h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Labels */
+  .upload-form label {
+    font-weight: 500;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Input Fields */
+  .upload-form input,
+  .upload-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  /* Input Focus Effect */
+  .upload-form input:focus,
+  .upload-form select:focus {
+    border-color: #888;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Submit Button - Kept separate from UploadButton */
+  .upload-form .upload-submit {
+    width: 100%;
+    background-color: #666; /* Neutral gray */
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .upload-form .upload-submit:hover {
+    background-color: #555;
+  }
+  
